@@ -1,4 +1,4 @@
-package Praktikum1;
+package praktikum1;
 
 public class PRAK002_2210817220022_RayfhaZafiraAzzahra {
     public static void main(String[] args){
