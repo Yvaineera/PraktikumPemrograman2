@@ -2,28 +2,28 @@ package Modul1;
 import java.util.Scanner;
 public class PRAK101_2210817220022_RayfhaZafiraAzzahra {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan Nama Lengkap : ");
-        String nama = scanner.nextLine();
+        String nama = input.nextLine();
 
         System.out.print("Masukkan Tempat Lahir : ");
-        String tempat = scanner.nextLine();
+        String tempat = input.nextLine();
 
         System.out.print("Masukkan Tanggal Lahir : ");
-        int tgl = scanner.nextInt();
+        int tgl = input.nextInt();
 
         System.out.print("Masukkan Bulan Lahir : ");
-        int bulan = scanner.nextInt();
+        int bulan = input.nextInt();
 
         System.out.print("Masukkan Tahun Lahir : ");
-        int tahun = scanner.nextInt();
+        int tahun = input.nextInt();
 
         System.out.print("Masukkan Tinggi Badan : ");
-        int TB = scanner.nextInt();
+        int TB = input.nextInt();
 
         System.out.print("Masukkan Berat Badan : ");
-        Double BB = scanner.nextDouble();
+        Double BB = input.nextDouble();
 
         String Bulan = getbulan (bulan);
         System.out.println("Nama Lengkap "+nama+", Lahir di "+tempat+" pada tanggal "+tgl+" "+Bulan+" "+tahun);
