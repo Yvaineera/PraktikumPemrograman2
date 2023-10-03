@@ -2,13 +2,13 @@ package Modul1;
 import java.util.Scanner;
 public class PRAK105_2210817220022_RayfhaZafiraAzzahra {
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         double phi = 3.14;
         for(int i = 0; i<3; i++){
             System.out.print("Masukkan jari-jari : ");
-            Double r = scanner.nextDouble();
+            Double r = input.nextDouble();
             System.out.print("Masukkan tinggi : ");
-            Double t = scanner.nextDouble();
+            Double t = input.nextDouble();
 
             double v = phi * r * r * t;
 
