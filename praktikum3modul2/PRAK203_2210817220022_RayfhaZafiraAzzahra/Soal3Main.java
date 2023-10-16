@@ -6,6 +6,7 @@ public class Soal3Main {
         p1.nama = "Roi";
         p1.asal = "Kingdom of Orvel";
         p1.setJabatan("Assasin");
+        //pada baris ini ditambahkan inisialisasi p1.umur sehingga print pada baris 15 tidak menunjukkan output 0
         p1.umur = 17;
 
         System.out.println("Nama Pegawai: " + p1.getNama());
