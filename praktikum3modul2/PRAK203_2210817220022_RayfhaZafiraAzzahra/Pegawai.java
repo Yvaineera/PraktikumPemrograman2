@@ -1,7 +1,7 @@
 package PRAK203_2210817220022_RayfhaZafiraAzzahra;
 public class Pegawai {
     public String nama;
-    public String asal;  // Perbaikan: Mengganti tipe data char menjadi String
+    public String asal;  
     public String jabatan;
     public int umur;
 
@@ -9,11 +9,11 @@ public class Pegawai {
         return nama;
     }
 
-    public String getAsal() {  // Perbaikan: Mengganti tipe data char menjadi String
+    public String getAsal() { 
         return asal;
     }
 
-    public void setJabatan(String j) {  // Perbaikan: Menambahkan parameter j dan mengaturnya ke jabatan
+    public void setJabatan(String j) {  
         this.jabatan = j;
     }
 }
