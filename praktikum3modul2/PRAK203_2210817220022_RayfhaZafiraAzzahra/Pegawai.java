@@ -16,7 +16,7 @@ public class Pegawai {
     public String getAsal() { 
         return asal;
     }
-    //pada baris ini terjadi error karena tidak ada parameter yang diteria method
+    //pada baris ini terjadi error karena tidak ada parameter yang diterima method
     //public void setJabatan(){
     public void setJabatan(String j) {  
         this.jabatan = j;
