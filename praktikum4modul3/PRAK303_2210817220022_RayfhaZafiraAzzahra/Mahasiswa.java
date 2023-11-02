@@ -1,6 +1,7 @@
 package PRAK303_2210817220022_RayfhaZafiraAzzahra;
 
-public class Mahasiswa {private String nama;
+public class Mahasiswa {
+    private String nama;
     private String nim;
 
     public Mahasiswa(String nama, String nim) {
