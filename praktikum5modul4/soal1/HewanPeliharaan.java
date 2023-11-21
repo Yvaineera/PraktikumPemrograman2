@@ -12,9 +12,9 @@ public class HewanPeliharaan {
 
     public void display() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Nama Hewan Peliharaan : ");
+        System.out.print("Nama Hewan Peliharaan : ");
         String nama = scanner.next();
-        System.out.println("Ras : ");
+        System.out.print("Ras : ");
         String ras = scanner.next();
         System.out.println("Detail Hewan Peliharaan : ");
         System.out.println("Nama hewan peliharaanku adalah : " + nama);
