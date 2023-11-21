@@ -1,5 +1,4 @@
 package soal2;
-import java.util.Scanner;
 
 public class Kucing extends HewanPeliharaan{
     private String warnaBulu;
