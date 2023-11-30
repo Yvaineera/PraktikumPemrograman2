@@ -1,7 +1,8 @@
 package soal1;
 
 public class cylinder extends shape{
-    private Double radius, height;
+    private Double radius
+    private Double height;
 
     public cylinder(Double radius, Double height){
         super("Cylinder");
