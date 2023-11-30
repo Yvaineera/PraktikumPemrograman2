@@ -3,8 +3,8 @@ package soal1;
 public class paint {
     private double coverage;
 
-    public paint(double c){
-        coverage = c;
+    public paint(double coverage){
+        this.coverage = coverage;
     }
 
     public double amount(shape s){
