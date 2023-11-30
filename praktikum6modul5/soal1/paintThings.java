@@ -3,8 +3,8 @@ import java.text.DecimalFormat;
 
 public class paintThings {
     public static void main(String[] args) {
-        final double Coverage = 350;
-        paint paint = new paint(Coverage);
+        final double COVERAGE = 350;
+        paint paint = new paint(COVERAGE);
         rectangle deck;
         sphere bigBall;
         cylinder tank;
