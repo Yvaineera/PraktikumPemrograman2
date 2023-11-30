@@ -10,7 +10,11 @@ public class cylinder extends shape{
         this.height = height;
     }
 
-    public Double area(){return Math.PI*(radius*radius)*height;}
+    public Double area(){
+        return Math.PI*(radius*radius)*height;
+    }
 
-    public String toString(){return super.toString() + " of radius " + radius + " and height " + height;}
+    public String toString(){
+        return super.toString() + " of radius " + radius + " and height " + height;
+    }
 }
