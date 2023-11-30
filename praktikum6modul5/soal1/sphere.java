@@ -9,7 +9,11 @@ public class sphere extends shape {
         this.radius = radius;
     }
 
-    public Double area(){return 4*Math.PI*(radius*radius);}
+    public Double area(){
+        return 4*Math.PI*(radius*radius);
+    }
 
-    public String toString(){return super.toString() + " of radius " + radius;}
+    public String toString(){
+        return super.toString() + " of radius " + radius;
+    }
 }
