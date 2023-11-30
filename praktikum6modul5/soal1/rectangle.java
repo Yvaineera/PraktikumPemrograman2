@@ -1,7 +1,8 @@
 package soal1;
 
 public class rectangle extends shape{
-    private Double length, width;
+    private Double length;
+    private Double width;
 
     public rectangle(Double length,Double width){
         super("Rectangle");
