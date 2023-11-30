@@ -10,7 +10,11 @@ public class rectangle extends shape{
         this.width = width;
     }
 
-    public Double area(){return length*width;}
+    public Double area(){
+        return length*width;
+    }
 
-    public String toString(){return super.toString() + " of length " + length + " and width " + width;}
+    public String toString(){
+        return super.toString() + " of length " + length + " and width " + width;
+    }
 }
